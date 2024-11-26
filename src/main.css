@@ -1,0 +1,17 @@
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 50vw;
+    padding: 45px;
+}
+.available{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+.unavailable{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
