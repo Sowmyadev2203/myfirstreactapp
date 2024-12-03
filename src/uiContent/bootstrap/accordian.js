@@ -8,7 +8,7 @@ function Btaccordion(props) {
         <Accordion.Item>
           <Accordion.Header>{props.title}</Accordion.Header>
           <Accordion.Body>
-            <img src={props.img} alt="img" />
+            <img src={props.img} alt="img"  style={{height:"100px"}}/>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

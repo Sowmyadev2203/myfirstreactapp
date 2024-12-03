@@ -226,16 +226,16 @@ class HomeComponent extends Component {
   render() {
     return (
       <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          height:"150px",
-          flexWrap:"wrap",
-          gap:"10px",
-          justifyContent: "center",
-          alignItems: "center",
+        // style={{
+        //   display: "flex",
+        //   flexDirection: "row",
+        //   height:"150px",
+        //   flexWrap:"wrap",
+        //   gap:"10px",
+        //   justifyContent: "center",
+        //   alignItems: "center",
 
-        }}
+        // }}
       >
         {/* <Notification name="sowmya" type="liked" />
             <Notification name="sowmya" type="saved" />
@@ -247,14 +247,14 @@ class HomeComponent extends Component {
                 <p>Oppo</p>
             </Products> */}
 
-{data.map((a, b) => {
+{/* {data.map((a, b) => {
           return (
             <div key={b}>
             <Cards
              data={a}
             /></div>
           );
-        })}
+        })} */}
 
         {/* <Parent/> */}
 
@@ -267,9 +267,9 @@ class HomeComponent extends Component {
 
         </div> */}
 
-      {/* {data.map((a,b)=>{
+      {data.map((a,b)=>{
         return( <Btaccordion title={a.title} desc={a.description} img={a.image}/>)
-      })}   */}
+      })}  
 
       {/* {data.map((a,b)=>{return(
         <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})} */}
