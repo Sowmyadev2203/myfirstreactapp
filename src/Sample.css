@@ -1,5 +1,7 @@
-table,th,td{
+table,th,td,tr{
         border:2px solid black ;
         width: 10vw; 
         border-collapse:collapse;
+        background-color: aliceblue;
+        
 }

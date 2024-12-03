@@ -1,10 +1,11 @@
+import React from "react";
 import "./Sample.css"
 
 
 
 function Sample(){
     return(
-       <table>
+       <table >
         <tr>
         <th rowspan="7">11R time table</th>
         <th>S.NO</th>
