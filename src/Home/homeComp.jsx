@@ -267,12 +267,12 @@ class HomeComponent extends Component {
 
         </div> */}
 
-      {data.map((a,b)=>{
+      {/* {data.map((a,b)=>{
         return( <Btaccordion title={a.title} desc={a.description} img={a.image}/>)
-      })}  
+      })}   */}
 
-      {/* {data.map((a,b)=>{return(
-        <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})} */}
+      {data.map((a,b)=>{return(
+        <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})}
 
         <Condrender/>
        
