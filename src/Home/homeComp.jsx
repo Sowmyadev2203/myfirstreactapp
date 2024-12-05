@@ -12,6 +12,7 @@ import Contact from "../portfolio/contact";
 import Btaccordion from "../uiContent/bootstrap/accordian";
 import Bstable from "../uiContent/bootstrap/table";
 import Condrender from "../uiContent/parentComp/condrender";
+import Countercomp from "../uiContent/counter/counter";
 
 const data = [
   {
@@ -271,10 +272,11 @@ class HomeComponent extends Component {
         return( <Btaccordion title={a.title} desc={a.description} img={a.image}/>)
       })}   */}
 
-      {data.map((a,b)=>{return(
-        <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})}
+      {/* {data.map((a,b)=>{return(
+        <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})} */}
 
-        <Condrender/>
+        {/* <Condrender/> */}
+        <Countercomp/>
        
 
 
