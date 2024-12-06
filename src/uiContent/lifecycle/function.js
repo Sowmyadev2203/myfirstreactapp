@@ -28,7 +28,7 @@ export default function FuncLifeCycle(){
                 margin:"23%",
                 
         }}>
-       
+       <h5>Counter using functional component</h5>
         <h1>{text}</h1>
         <button onClick={handleButton1}>+1</button>
         <button onClick={handleButton2}>+2</button>

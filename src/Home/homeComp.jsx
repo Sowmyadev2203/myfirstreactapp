@@ -262,13 +262,13 @@ class HomeComponent extends Component {
         {/* <Parent/> */}
 
    {/*Portfolio */}
-      <div className="text-white bg-dark">
+      {/* <div className="text-white bg-dark">
         <Head/>
         <About/>
         <Projects/>
         <Contact/>
 
-        </div>
+        </div> */}
 
       {/* {data.map((a,b)=>{
         return( <Btaccordion title={a.title} desc={a.description} img={a.image}/>)

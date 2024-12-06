@@ -13,10 +13,9 @@ class SampleForm extends React.Component{
         return(
             <>
             <form onSubmit={this.formSubmission}>
-                <label for="FirstName" value="FirstName" />
                 <input type="text" id="id1"/>
-                <input type="submit"/>
-            </form>
+                <input type="submit"/> 
+            </form> 
             <h1>{this.state.text}</h1>
             </>
         )
