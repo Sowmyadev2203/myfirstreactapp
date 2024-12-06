@@ -9,12 +9,12 @@
     border-radius: 30px;
     justify-content: center;
 }
-h1{
+.head_one{
     display: flex;
     flex-direction: row;
     width:50%;
     padding: 20px;
-    background-color: rgb(83, 76, 76);
+    background-color: rgb(240, 16, 16);
     border-radius: 30px;
     justify-content: center;
     margin:200px 0px 0px 200px;  

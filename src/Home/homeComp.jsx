@@ -13,6 +13,8 @@ import Btaccordion from "../uiContent/bootstrap/accordian";
 import Bstable from "../uiContent/bootstrap/table";
 import Condrender from "../uiContent/parentComp/condrender";
 import Countercomp from "../uiContent/counter/counter";
+import SampleForm from "../uiContent/form/sampleForm";
+
 
 const data = [
   {
@@ -260,13 +262,13 @@ class HomeComponent extends Component {
         {/* <Parent/> */}
 
    {/*Portfolio */}
-      {/* <div className="text-white bg-dark">
+      <div className="text-white bg-dark">
         <Head/>
         <About/>
         <Projects/>
         <Contact/>
 
-        </div> */}
+        </div>
 
       {/* {data.map((a,b)=>{
         return( <Btaccordion title={a.title} desc={a.description} img={a.image}/>)
@@ -276,8 +278,8 @@ class HomeComponent extends Component {
         <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})} */}
 
         {/* <Condrender/> */}
-        <Countercomp/>
-       
+        {/* <Countercomp/> */}
+       {/* <SampleForm/> */}
 
 
 

@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import FuncLifeCycle from './uiContent/lifecycle/function';
+import HomeComponent from './Home/homeComp';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </a>
       </header> */}
       {/* <FuncLifeCycle/> */}
+     
     </div>
   );
 }

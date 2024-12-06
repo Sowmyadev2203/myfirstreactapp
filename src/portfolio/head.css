@@ -4,14 +4,14 @@
 .nav{
    gap: 100px;
 }
-.div1{
+ .div1{
     display: flex;
     flex-direction: row;
     gap: 100px;
     justify-content:space-around;
     align-content: center;
     margin-top: 6%;
-    /* padding: 50px; */
+    padding: 50px;
 }
 .profile-image {
     width: 60%;  
@@ -82,6 +82,119 @@
     background-color: black;
     padding: 40px;
   }
+
+
+
+
+/* Media Queries */
+
+/*  Mobile */
+@media (max-width: 768px) {
+  .div1 {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 20px;
+      margin-left: 60px;
+  }
+
+  
+
+  .profile-image {
+      width: 80%;
+      height: auto;
+      margin-top: 10px;
+  }
+
+  .adiv1 {
+      flex-direction: column;
+      padding: 30px;
+  }
+
+  .adiv11, .adiv12 {
+      width: 80%;
+      height: auto;
+      margin-bottom: 20px;
+      margin-left: 50px;
+  }
+
+  .skills {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+  }
+
+  .pdiv1, .pdiv2 {
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      gap: 30px;
+  }
+
+  .pdiv1 > .card, .pdiv2 > .card {
+      width: 100%;
+      height: auto;
+  }
+
+  .cdiv1 {
+      margin-top: 10%;
+      padding: 20px;
+  }
+
+  /* For Contact Section */
+  .cdiv1 p {
+      text-align: center;
+  }
+}
+
+/* For Larger Screens like Tablets and Small Desktops */
+@media (min-width: 600px) and (max-width: 1024px){
+  .div1 {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      padding: 40px;
+  }
+
+  .profile-image {
+      width: 70%;
+      height: auto;
+      margin-top: 10px;
+  }
+
+  .adiv1 {
+      flex-direction: column;
+      padding: 30px;
+  }
+
+  .adiv11, .adiv12 {
+      width: 70%;
+      height: auto;
+      margin-bottom: 20px;
+      margin-right: 40px;
+  }
+
+  .skills {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+  }
+
+  .pdiv1, .pdiv2 {
+      flex-direction:row;
+      align-items: center;
+      gap: 40px;
+  }
+
+  .pdiv1 > .card, .pdiv2 > .card {
+      width: 100%;
+      height: auto;
+  }
+
+  .cdiv1 {
+      margin-top: 10%;
+      padding: 20px;
+  }
+}
+
   
   
   

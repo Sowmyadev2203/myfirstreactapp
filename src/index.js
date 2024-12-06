@@ -7,17 +7,17 @@ import reportWebVitals from './reportWebVitals';
 import Sample from './Samplecomp';
 import HomeComponent from './Home/homeComp';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SampleForm from './uiContent/sampleForm';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+    {/* <App/> */}
     {/* <Sample /> */}
     {/* <MainComp/> */}
     <HomeComponent/>
-   {/* <SampleForm/> */}
+    
   </React.StrictMode>
 );
 

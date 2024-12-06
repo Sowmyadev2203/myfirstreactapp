@@ -3,7 +3,6 @@ import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/esm/Button";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-// import About from "./about";
 import "../portfolio/head.css";
 import img from "../assests/images/mainimg.avif";
 
@@ -31,7 +30,7 @@ function Head() {
             <h1>i'm <span style={{color:"orangered"}}>Katepalli Sowmya</span></h1>
             <h2>Front-end Developer</h2>
             <p>i am a front-end developer experience in creating responsive webpages</p>
-            <Button variant="outline-danger">Download Resume</Button>
+            <Button variant="outline-danger">Hire me</Button>
         </div>
 
 
@@ -48,7 +47,4 @@ function Head() {
     </div>
   );
 }
-
-{/* <About/> */}
-
 export default Head;
