@@ -15,6 +15,7 @@ import Condrender from "../uiContent/parentComp/condrender";
 import Countercomp from "../uiContent/counter/counter";
 import SampleForm from "../uiContent/form/sampleForm";
 import FuncLifeCycle from "../uiContent/lifecycle";
+import Todo from "../uiContent/todolist";
 
 
 
@@ -233,16 +234,16 @@ class HomeComponent extends Component {
     return (
       <>
       <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          height:"150px",
-          flexWrap:"wrap",
-          gap:"10px",
-          justifyContent: "center",
-          alignItems: "center",
+        // style={{
+        //   display: "flex",
+        //   flexDirection: "row",
+        //   height:"150px",
+        //   flexWrap:"wrap",
+        //   gap:"10px",
+        //   justifyContent: "center",
+        //   alignItems: "center",
 
-        }}
+        // }}
       >
         {/* <Notification name="sowmya" type="liked" />
             <Notification name="sowmya" type="saved" />
@@ -254,6 +255,16 @@ class HomeComponent extends Component {
                 <p>Oppo</p>
             </Products> */}
 
+
+<div
+  style={{
+      display: "flex",
+      flexDirection: "row",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}}
+   >
  {data.map((a, b) => {
           return (
             <div key={b}>
@@ -261,11 +272,14 @@ class HomeComponent extends Component {
              data={a}
             /></div>
           );
-        })} 
+        })}
+        </div> 
 
         <div>
         <FuncLifeCycle/>
         </div>
+
+        <Todo/>
       
 
 
@@ -291,7 +305,11 @@ class HomeComponent extends Component {
         <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})}
 
         {/* <Condrender/> */}
+        
         <Countercomp/>
+        
+
+        
         
        
        {/* <SampleForm/> */}
