@@ -16,6 +16,7 @@ import Countercomp from "../uiContent/counter/counter";
 import SampleForm from "../uiContent/form/sampleForm";
 import FuncLifeCycle from "../uiContent/lifecycle";
 import Todo from "../uiContent/todolist";
+import Sample from "../Samplecomp";
 
 
 
@@ -280,6 +281,9 @@ class HomeComponent extends Component {
         </div>
 
         <Todo/>
+
+
+        <Sample/>
       
 
 
