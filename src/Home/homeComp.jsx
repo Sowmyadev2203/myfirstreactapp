@@ -14,6 +14,9 @@ import Bstable from "../uiContent/bootstrap/table";
 import Condrender from "../uiContent/parentComp/condrender";
 import Countercomp from "../uiContent/counter/counter";
 import SampleForm from "../uiContent/form/sampleForm";
+import FuncLifeCycle from "../uiContent/lifecycle";
+
+
 
 
 const data = [
@@ -228,17 +231,18 @@ const data = [
 class HomeComponent extends Component {
   render() {
     return (
+      <>
       <div
-        // style={{
-        //   display: "flex",
-        //   flexDirection: "row",
-        //   height:"150px",
-        //   flexWrap:"wrap",
-        //   gap:"10px",
-        //   justifyContent: "center",
-        //   alignItems: "center",
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          height:"150px",
+          flexWrap:"wrap",
+          gap:"10px",
+          justifyContent: "center",
+          alignItems: "center",
 
-        // }}
+        }}
       >
         {/* <Notification name="sowmya" type="liked" />
             <Notification name="sowmya" type="saved" />
@@ -250,14 +254,23 @@ class HomeComponent extends Component {
                 <p>Oppo</p>
             </Products> */}
 
-{/* {data.map((a, b) => {
+ {data.map((a, b) => {
           return (
             <div key={b}>
             <Cards
              data={a}
             /></div>
           );
-        })} */}
+        })} 
+
+        <div>
+        <FuncLifeCycle/>
+        </div>
+      
+
+
+
+
 
         {/* <Parent/> */}
 
@@ -270,22 +283,25 @@ class HomeComponent extends Component {
 
         </div> */}
 
-      {/* {data.map((a,b)=>{
+      {data.map((a,b)=>{
         return( <Btaccordion title={a.title} desc={a.description} img={a.image}/>)
-      })}   */}
+      })}  
 
-      {/* {data.map((a,b)=>{return(
-        <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})} */}
+      {data.map((a,b)=>{return(
+        <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})}
 
         {/* <Condrender/> */}
-        {/* <Countercomp/> */}
+        <Countercomp/>
+        
+       
        {/* <SampleForm/> */}
 
 
-
-
-       
       </div>
+
+     
+
+      </>
     );
   }
 }

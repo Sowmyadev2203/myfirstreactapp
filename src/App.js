@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import FuncLifeCycle from './uiContent/lifecycle/function';
 import HomeComponent from './Home/homeComp';
+
 
 function App() {
   return (
@@ -22,7 +22,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <FuncLifeCycle/>
+      
+    
      
     </div>
   );

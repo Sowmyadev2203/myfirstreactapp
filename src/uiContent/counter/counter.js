@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-// import "./counter.css"
+import "./counter.css"
 
 class Countercomp extends Component{
 
@@ -27,6 +27,7 @@ class Countercomp extends Component{
     render(){
 
         return(<>
+        <h2>class counter</h2>
         <h1 className="head_one" style={{color:"white"}}>{this.state.counter}</h1>
         
         <div className="div1">
