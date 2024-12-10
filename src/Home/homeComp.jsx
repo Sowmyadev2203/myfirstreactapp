@@ -17,6 +17,7 @@ import SampleForm from "../uiContent/form/sampleForm";
 import FuncLifeCycle from "../uiContent/lifecycle";
 import Todo from "../uiContent/todolist";
 import Sample from "../Samplecomp";
+import Even from "../uiContent/evenodd/evenodd";
 
 
 
@@ -284,6 +285,8 @@ class HomeComponent extends Component {
 
 
         <Sample/>
+
+        <Even/>
       
 
 
