@@ -34,7 +34,7 @@ function Todo() {
   };
 
   return (
-    <div className="App" style={{border:"2px solid black",padding:"20px",width:"500px"}}>
+    <div className="App">
       <h1>To-Do List</h1>
 
      

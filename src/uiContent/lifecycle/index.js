@@ -25,7 +25,7 @@ export default function FuncLifeCycle(){
                 width:"40%",
                 backgroundColor:"black",
                 color:"white",
-                margin:"23%",
+               
                 
         }}>
        <h5>Counter using functional component</h5>

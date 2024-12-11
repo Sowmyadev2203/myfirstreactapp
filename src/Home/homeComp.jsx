@@ -18,6 +18,7 @@ import FuncLifeCycle from "../uiContent/lifecycle";
 import Todo from "../uiContent/todolist";
 import Sample from "../Samplecomp";
 import Even from "../uiContent/evenodd/evenodd";
+import SimpleForm from "../uiContent/formsub/formr";
 
 
 
@@ -237,13 +238,12 @@ class HomeComponent extends Component {
       <>
       <div
         // style={{
-        //   display: "flex",
-        //   flexDirection: "row",
-        //   height:"150px",
+        //    display: "flex",
+        //    flexDirection: "row",
+        //    height:"150px",
         //   flexWrap:"wrap",
         //   gap:"10px",
-        //   justifyContent: "center",
-        //   alignItems: "center",
+          
 
         // }}
       >
@@ -277,16 +277,62 @@ class HomeComponent extends Component {
         })}
         </div> 
 
-        <div>
+        <div  style={{
+      border:"2px solid black",
+      height:"500px",  
+      display: "flex",
+      flexDirection: "column",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}} >
+        <h1>counter using function</h1>
         <FuncLifeCycle/>
         </div>
 
-        <Todo/>
+       <div style={{
+      border:"2px solid black",
+      height:"500px",  
+      display: "flex",
+      flexDirection: "row",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}}> <Todo/></div>
 
 
-        <Sample/>
+        <div style={{
+      border:"2px solid black",
+      height:"600px",  
+      display: "flex",
+      flexDirection: "row",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}}><Sample/></div>
 
-        <Even/>
+       <div style={{
+      border:"2px solid black",
+      height:"500px",  
+      display: "flex",
+      flexDirection: "row",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}}>
+        <Even/></div> 
+
+        <div  style={{
+      border:"2px solid black",
+      height:"500px",  
+      display: "flex",
+      flexDirection: "column",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}}>
+        <h1>Form</h1>
+        <SimpleForm/></div>
       
 
 
@@ -303,17 +349,32 @@ class HomeComponent extends Component {
         <Contact/>
 
         </div> */}
-
+    <div>
+      <h1>Bootstrap accordion</h1>
       {data.map((a,b)=>{
         return( <Btaccordion title={a.title} desc={a.description} img={a.image}/>)
-      })}  
+      })}
+      </div> 
+
+      <div >
+        <h1>bootstrap Table</h1>
 
       {data.map((a,b)=>{return(
         <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category}/>)})}
-
+</div> 
         {/* <Condrender/> */}
         
-        <Countercomp/>
+        <div   style={{
+      border:"2px solid black",
+      height:"700px",  
+      display: "flex",
+      flexDirection: "column",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}}>
+        <h2>counter using class </h2>
+        <Countercomp/></div>
         
 
         
