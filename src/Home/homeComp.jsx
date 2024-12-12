@@ -21,6 +21,8 @@ import Even from "../uiContent/evenodd/evenodd";
 import SimpleForm from "../uiContent/formsub/formr";
 import Updatingcycle from "../uiContent/updating/spinner";
 import UpdatingPhase from "../uiContent/updating/spinner";
+import UpdatingSpinner from "../uiContent/updating/updatingspinner";
+import DisplayCards from "../uiContent/bootstrap/linecard";
 
 
 
@@ -273,7 +275,7 @@ class HomeComponent extends Component {
  {data.map((a, b) => {
           return (
             <div key={b}>
-            <Cards
+            <DisplayCards
              data={a}
             /></div>
           );
@@ -391,6 +393,19 @@ class HomeComponent extends Component {
       alignItems: "center",}}>
         <h1>Spinner</h1>
         <UpdatingPhase/></div>
+
+        <div  style={{
+      border:"2px solid black",  
+      display: "flex",
+      flexDirection: "column",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}}>
+        <h1>diplay cards as per the button</h1>
+        <UpdatingSpinner/></div>
+
+        
 
        
         

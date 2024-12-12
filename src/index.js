@@ -14,7 +14,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HomeComponent/>
-    {/* <App/> */}
+    <div style={{height:"600px"}}><h1 style={{textAlign:"center"}}>Routing Task</h1>
+    <App/></div>
+    
     {/* <Sample /> */}
     {/* <MainComp/> */}
     
