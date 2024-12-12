@@ -19,6 +19,9 @@ import Todo from "../uiContent/todolist";
 import Sample from "../Samplecomp";
 import Even from "../uiContent/evenodd/evenodd";
 import SimpleForm from "../uiContent/formsub/formr";
+import Updatingcycle from "../uiContent/updating/spinner";
+import UpdatingPhase from "../uiContent/updating/spinner";
+
 
 
 
@@ -347,7 +350,6 @@ class HomeComponent extends Component {
         <About/>
         <Projects/>
         <Contact/>
-
         </div> */}
     <div>
       <h1>Bootstrap accordion</h1>
@@ -375,6 +377,22 @@ class HomeComponent extends Component {
       alignItems: "center",}}>
         <h2>counter using class </h2>
         <Countercomp/></div>
+
+
+     
+      <div  style={{
+      border:"2px solid black",
+      height:"500px",  
+      display: "flex",
+      flexDirection: "column",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}}>
+        <h1>Spinner</h1>
+        <UpdatingPhase/></div>
+
+       
         
 
         

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-const SimpleForm = () => {
-  // State to hold form data
+function SimpleForm(){
+  
   const [formData, setFormData] = useState({
     Firstname: '',
     Lastname: '',
@@ -10,16 +10,16 @@ const SimpleForm = () => {
     BatchNo: ''
   });
 
-  // State for form submission status
+ 
   const [submitted, setSubmitted] = useState(false);
 
-  // Handle input change
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  // Handle form submission
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form Submitted:', formData);
