@@ -4,11 +4,7 @@ import Notification from "../uiContent/notifications/notificationCard";
 import Products from "../uiContent/products/products";
 import Profile from "../uiContent/profile/profileCard";
 import Cards from "../uiContent/bootstrap/card";
-import Head from "../portfolio/header";
 import Parent from "../uiContent/parentComp/parentComp";
-import About from "../portfolio/about";
-import Projects from "../portfolio/projects";
-import Contact from "../portfolio/contact";
 import Btaccordion from "../uiContent/bootstrap/accordian";
 import Bstable from "../uiContent/bootstrap/table";
 import Condrender from "../uiContent/parentComp/condrender";
@@ -346,13 +342,9 @@ class HomeComponent extends Component {
 
         {/* <Parent/> */}
 
-   {/*Portfolio */}
-      {/* <div className="text-white bg-dark">
-        <Head/>
-        <About/>
-        <Projects/>
-        <Contact/>
-        </div> */}
+   
+
+        
     <div>
       <h1>Bootstrap accordion</h1>
       {data.map((a,b)=>{
@@ -405,7 +397,7 @@ class HomeComponent extends Component {
         <h1>diplay cards as per the button</h1>
         <UpdatingSpinner/></div>
 
-        
+
 
        
         

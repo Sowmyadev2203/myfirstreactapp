@@ -7,15 +7,29 @@ import reportWebVitals from './reportWebVitals';
 import Sample from './Samplecomp';
 import HomeComponent from './Home/homeComp';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Head from './portfolio/header';
+import About from './portfolio/about';
+import Projects from './portfolio/projects';
+import Contact from './portfolio/contact';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+
+    
     <HomeComponent/>
     <div style={{height:"600px"}}><h1 style={{textAlign:"center"}}>Routing Task</h1>
     <App/></div>
+
+    {/*Portfolio */}
+    <div className="text-white bg-dark">
+        <Head/>
+        <About/>
+        <Projects/>
+        <Contact/>
+        </div>
     
     {/* <Sample /> */}
     {/* <MainComp/> */}
