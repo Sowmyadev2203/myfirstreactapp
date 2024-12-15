@@ -19,6 +19,7 @@ import Updatingcycle from "../uiContent/updating/spinner";
 import UpdatingPhase from "../uiContent/updating/spinner";
 import UpdatingSpinner from "../uiContent/updating/updatingspinner";
 import DisplayCards from "../uiContent/bootstrap/linecard";
+import LoginForm from "../uiContent/loginComp";
 
 
 
@@ -399,8 +400,18 @@ class HomeComponent extends Component {
 
 
 
-       
-        
+        <div  style={{
+      border:"2px solid black",
+      height:"500px",  
+      display: "flex",
+      flexDirection: "column",
+      flexWrap:"wrap",
+      gap:"10px",
+      justifyContent: "center",
+      alignItems: "center",}}>
+        <h1>LoginForm using axios</h1>
+        <LoginForm/>  
+        </div>
 
         
         

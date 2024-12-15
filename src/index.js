@@ -11,6 +11,7 @@ import Head from './portfolio/header';
 import About from './portfolio/about';
 import Projects from './portfolio/projects';
 import Contact from './portfolio/contact';
+import LoginForm from './uiContent/loginComp';
 
 
 
@@ -30,6 +31,9 @@ root.render(
         <Projects/>
         <Contact/>
         </div>
+
+     
+
     
     {/* <Sample /> */}
     {/* <MainComp/> */}
